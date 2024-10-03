@@ -12,21 +12,21 @@ The project involves:
 4. **Writing Triggers:** Two triggers are implemented to enforce business rules and maintain data integrity.
 
 ### Project Structure
-01_create_tables.sql
-02_insert_data.sql
-03_queries_1.sql
-03_queries_2.sql
-03_queries_3.sql
-03_queries_4.sql
-03_queries_5.sql
-04_insert_trigger
-04_insert_trigger_test
-05_delete_trigger
-05_delete_trigger_test
-erd-diagram.png
-README.md
+01_create_tables.sql  
+02_insert_data.sql  
+03_queries_1.sql  
+03_queries_2.sql  
+03_queries_3.sql  
+03_queries_4.sql  
+03_queries_5.sql  
+04_insert_trigger  
+04_insert_trigger_test  
+05_delete_trigger  
+05_delete_trigger_test  
+erd-diagram.png  
+README.md  
 
-### How to Run
+### To Run
 1. Clone the Repository:
 ```bash
 git clone https://github.com/pravin006/student-course-rdbms.git
@@ -40,10 +40,10 @@ GO
 ```
 
 3. Execute Scripts in Order:
-Run 01_create_tables.sql to create the tables.
-Run 02_insert_data.sql to populate the tables with data.
-Run 04_insert_trigger.sql and 05_delete_trigger to create the triggers.
-Run 03_queries_1.sql - 03_queries_5.sql to execute the queries and view the results.
+Run 01_create_tables.sql to create the tables.  
+Run 02_insert_data.sql to populate the tables with sample data.  
+Run 04_insert_trigger.sql and 05_delete_trigger to create the triggers.  
+Run 03_queries_1.sql - 03_queries_5.sql to execute the queries and view the results.  
 
 ### SQL Scripts Overview
 #### Table Creation
@@ -69,7 +69,8 @@ generated with a trigger.
 - dueDate is a date at least one week after today’s date.
 - dateSubmitted is a date with default value today’s date,
 - score is a decimal number between 0 and 100.
-- All columns are required except for dateSubmitted and score
+- All columns are required except for dateSubmitted and score  
+
 Constraints:
 - enrols relationship - delete cascade and update disallowed for actions on
 Student and delete/update disallowed for actions on Course.
