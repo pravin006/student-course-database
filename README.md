@@ -39,11 +39,11 @@ CREATE DATABASE Q3;
 GO
 ```
 
-3. Execute Scripts in Order:
-Run 01_create_tables.sql to create the tables.  
-Run 02_insert_data.sql to populate the tables with sample data.  
-Run 04_insert_trigger.sql and 05_delete_trigger to create the triggers.  
-Run 03_queries_1.sql - 03_queries_5.sql to execute the queries and view the results.  
+3. Execute Scripts in Order:  
+    1. Run 01_create_tables.sql to create the tables.  
+    2. Run 02_insert_data.sql to populate the tables with sample data.  
+    3. Run 04_insert_trigger.sql and 05_delete_trigger to create the triggers.  
+    4. Run 03_queries_1.sql - 03_queries_5.sql to execute the queries and view the results.  
 
 ### SQL Scripts Overview
 #### Table Creation
